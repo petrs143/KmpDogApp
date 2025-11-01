@@ -12,7 +12,9 @@ import org.koin.dsl.KoinConfiguration
 @Composable
 @Preview
 fun App() {
-    KoinMultiplatformApplication(config = KoinConfiguration { modules(appModule) }) {
+    KoinMultiplatformApplication(
+        KoinConfiguration { modules(appModule) }
+    ) {
         MaterialTheme {
             DogNavigationHost()
         }
