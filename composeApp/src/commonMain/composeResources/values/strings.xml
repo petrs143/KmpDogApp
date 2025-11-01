@@ -1,0 +1,11 @@
+<resources>
+    <string name="error_prefix">Error: %s</string>
+    <string name="hypoallergenic">Hypoallergenic</string>
+    <string name="life_span">Life Span</string>
+    <string name="male_weight">Male Weight</string>
+    <string name="female_weight">Female Weight</string>
+    <string name="years">years</string>
+    <string name="kg">kg</string>
+    <string name="range_format">%d-%d %s</string>
+</resources>
+
